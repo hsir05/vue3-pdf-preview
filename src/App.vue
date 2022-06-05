@@ -1,9 +1,8 @@
 <template>
 <div>
-    <PDFView :pdfUrl="jsPdf" />
+    <PDFView pdfUrl="http://storage.xuetangx.com/public_assets/xuetangx/PDF/PlayerAPI_v1.0.6.pdf" />
 </div>
 </template>
 <script setup lang="ts">
 import PDFView from "./components/pdfPreview.vue"
-import jsPdf from "./Javascript.pdf"
 </script>
