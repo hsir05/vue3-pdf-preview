@@ -8,14 +8,14 @@
             <div class="page-tool-item" @click="pageZoomIn">缩小</div>
         </div>
         <div class="pdf-wrap">
-        <vue-pdf-embed :source="state.source"  :style="scale" class="vue-pdf-embed" :page="state.pageNum" />
+            <vue-pdf-embed :source="state.source"  :style="scale" class="vue-pdf-embed" :page="state.pageNum" />
         </div>
     </div>
 </template>
 <script setup lang="ts">
 import { reactive, onMounted, computed } from "vue";
 import VuePdfEmbed from "vue-pdf-embed";
-import { createLoadingTask } from "vue3-pdfjs/esm"; // 获得总页数
+import { createLoadingTask } from "vue3-pdfjs"; // 获得总页数
 
 const props = defineProps({
     pdfUrl: {
