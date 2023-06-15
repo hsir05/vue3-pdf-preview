@@ -10,6 +10,7 @@
   "dependencies": {
     "vue": "^3.3.4",
     "vue-pdf-embed": "^1.1.6",
+    "vue3-pdf-app": "^1.0.3",
     "vue3-pdfjs": "^0.1.6"
   },
   "devDependencies": {

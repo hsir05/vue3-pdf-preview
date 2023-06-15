@@ -7,11 +7,13 @@ specifiers:
   vue: ^3.3.4
   vue-pdf-embed: ^1.1.6
   vue-tsc: ^0.34.17
+  vue3-pdf-app: ^1.0.3
   vue3-pdfjs: ^0.1.6
 
 dependencies:
   vue: 3.3.4
   vue-pdf-embed: 1.1.6_vue@3.3.4
+  vue3-pdf-app: 1.0.3_vue@3.3.4
   vue3-pdfjs: 0.1.6
 
 devDependencies:
@@ -540,6 +542,14 @@ packages:
       '@vue/runtime-dom': 3.3.4
       '@vue/server-renderer': 3.3.4_vue@3.3.4
       '@vue/shared': 3.3.4
+
+  /vue3-pdf-app/1.0.3_vue@3.3.4:
+    resolution: {integrity: sha512-qegWTIF4wYKiocZ3KreB70wRXhqSdXWbdERDyyKzT7d5PbjKbS9tD6vaKkCqh3PzTM84NyKPYrQ3iuwJb60YPQ==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      vue: 3.3.4
+    dev: false
 
   /vue3-pdfjs/0.1.6:
     resolution: {integrity: sha512-7UaWbsp8wNqB0y/rRlyo5yRb0S+XOkkSpmdUuS267Dhi07Pt4RFEetQ8inrpf/aTFJwGnW0Uc/UE4p376s+Zmw==}
